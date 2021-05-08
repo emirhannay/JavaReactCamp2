@@ -6,7 +6,7 @@ import Entities.Game;
 import Entities.Player;
 
 public class GameManager implements GameService {
-
+	
 	@Override
 	public void sellGame(Game game, Player player) {
 		System.out.println(game.get_sellingPrice() + " fiyatýndaki " + game.get_name() + " oyunu "
